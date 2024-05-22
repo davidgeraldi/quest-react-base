@@ -1,6 +1,6 @@
 import './App.css'
-import Paragraph from './components/paragraph/paragraph'
-import Button from './components/button/button'
+import Paragraph from './components/paragraph/paragraph.jsx'
+import Button from './components/button/button.jsx'
 
 function App() {
   return (
