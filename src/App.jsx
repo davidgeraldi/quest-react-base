@@ -7,6 +7,7 @@ function App() {
     <>
       <Paragraph /> {/*paragrafo quando nao há as props passadas, com props padrao*/}
       <Paragraph label="texto passado pela prop label" color="red"/> {/*paragrafo quando se passa props */}
+      <Paragraph label="texto passado pela prop label" color="green"/> {/*paragrafo quando se passa props */}
     </>
   )
 }
