@@ -1,13 +1,16 @@
 import './App.css'
-import './components/text'
-import Paragraph from './components/text'
+import Paragraph from './components/paragraph/text'
+import Button from './components/button/button'
 
 function App() {
   return (
     <>
-      <Paragraph /> {/*paragrafo quando nao há as props passadas, com props padrao*/}
-      <Paragraph label="texto passado pela prop label" color="red"/> {/*paragrafo quando se passa props */}
-      <Paragraph label="texto passado pela prop label" color="green"/> {/*paragrafo quando se passa props */}
+      <Paragraph />
+      <Paragraph label="texto passado pela prop label" color="red"/> 
+      <Paragraph label="outro texto passado pela prop label" color="green"/>
+
+      <Button />
+      <Button label='botao com label' color="orange"/>
     </>
   )
 }
